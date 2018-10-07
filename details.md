@@ -76,4 +76,11 @@ func init() {
 	flag.IntVar(&flagvar, "flagname", "f"， 1234, "help message for flagname")
 }
 ````
+- 命令中，其余参数
+````
+fmt.Printf("args=%s, num=%d\n", flag.Args(), flag.NArg())
+	for i := 0; i != flag.NArg(); i++ {
+		fmt.Printf("arg[%d]=%s\n", i, flag.Arg(i))
+	}
+````
 
