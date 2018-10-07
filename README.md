@@ -21,6 +21,9 @@ $ selpg -s10 -e20 -l ... ##以行数换页，每页72行（默认值）
 $ selpg -s10 -e20 -f ...   ##以换页符\f换页
 ````
 
+使用了pflag包
+需要安装pflag
+go get github.com/spf13/pflag
 # 没看明白
 
 “-dDestination”可选选项：
