@@ -56,3 +56,24 @@ defer file.Close()
     outputWriter.Flush()//清空缓冲区？？？？
 ````
 
+
+## flag、pflag
+
+falg为官方包
+pflag为falg扩展包
+- 将flag绑定到一个变量
+````
+var flagvar int
+func init() {
+	flag.IntVar(&flagvar, "flagname", 1234, "help message for flagname")
+}
+````
+- pflag
+````
+var flagvar int
+
+func init() {
+	flag.IntVar(&flagvar, "flagname", "f"， 1234, "help message for flagname")
+}
+````
+
