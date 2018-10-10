@@ -1,4 +1,4 @@
-# homework
+# 服务计算homework
 用go语言实现selpg (学习[开发 Linux 命令行实用程序](https://www.ibm.com/developerworks/cn/linux/shell/clutil/index.html))
 
 
