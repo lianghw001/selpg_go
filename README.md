@@ -60,7 +60,7 @@
   selpg -s1 -e1 inputTest.txt > outputTest.txt
   ````
   ![04](https://github.com/lianghw001/selpg_go/blob/master/picture/04.PNG)
-- 5.为了有error，去除-e
+- 5. 为了有error，去除-e
   ````
   selpg -s1   inputTest.txt 2>error.txt
   ````
@@ -71,17 +71,17 @@
   ````
   ![06](https://github.com/lianghw001/selpg_go/blob/master/picture/06.PNG)
 
-- 7.每页3行
+- 7. 每页3行
   ````
   selpg -s1 -e1 -l3 inputTest.txt
   ````
   ![07](https://github.com/lianghw001/selpg_go/blob/master/picture/07.PNG)
-- 8.以换页符换页
+- 8. 以换页符换页
   ````
   selpg -s1 -e1 -f inputTest2.txt
   ````
   ![08](https://github.com/lianghw001/selpg_go/blob/master/picture/08.PNG)
-- 9.没有打印机，用cat测试
+- 9. 没有打印机，用cat测试
   ````
   selpg -s1 -e1 -l6 -dlp1 inputTest.txt
   ````
